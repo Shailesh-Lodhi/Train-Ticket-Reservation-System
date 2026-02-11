@@ -1,0 +1,29 @@
+
+<web-app>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.train.auth.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Trains</servlet-name>
+    <servlet-class>com.train.train.TrainServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Trains</servlet-name>
+    <url-pattern>/trains</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Book</servlet-name>
+    <servlet-class>com.train.booking.BookingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Book</servlet-name>
+    <url-pattern>/book</url-pattern>
+  </servlet-mapping>
+</web-app>
